@@ -2,7 +2,7 @@
 Panel de control para el proyecto DUM de Una habitación Domótica. 
 
 ## Vista Del Diseño
-Para el diseño se opto por utilizar un diseño flotante y para el look and feel se utilizo la biblioteca para Java Swing [BeautyEye](https://github.com/JackJiang2011/beautyeye)
+Para el diseño se opto por utilizar ventanas flotantes y para el look and feel se utilizo la biblioteca para Java Swing [BeautyEye](https://github.com/JackJiang2011/beautyeye)
 
 ![Dashboard](/Vista%20final.png)
 
