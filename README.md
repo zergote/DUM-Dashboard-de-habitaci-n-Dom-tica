@@ -1,32 +1,32 @@
-# DUM-Dashboard-de-habitacion-Domotica
-Panel de control para el proyecto DUM de Una habitación Domótica. 
+# DUM Dashboard of Domotic Room
+Control panel for the DUM project of One Room Domotics. 
 
-## Vista Del Diseño
-Para el diseño se opto por utilizar ventanas flotantes y para el look and feel se utilizo la biblioteca para Java Swing [BeautyEye](https://github.com/JackJiang2011/beautyeye)
+## Design View
+For the design it was chosen to use floating windows and for the look and feel the Java Swing library was used [BeautyEye](https://github.com/JackJiang2011/beautyeye)
 
 ![Dashboard](/Vista%20final.png)
 
-## Funciones
-En el panel se establece una conexión con el microcontrolador Teensy 3.1 pudiendo leer las variables de este o modificarlas permitiendo de este modo poder tener total control sobre los sensores y actuadores conectados a el.
+## Functions
+In the panel a connection is established with the microcontroller Teensy 3.1 being able to read the variables of this one or to modify them allowing this way to be able to have total control on the sensors and actuators connected to it.
 
-### Mediante el panel se puede acceder a la siguiente información sobre la habitación:
-- Temperatura.
-- Humedad.
-- Humo o gas presentes.
-- Intrusos en el área.
-- Fuego.
-- Estado de luces.
+### The following information about the room can be accessed via the panel
+- Temperature.
+- Moisture.
+- Smoke or gas present.
+- Intruders in the area.
+- Fire.
+- Status of lights.
 
-### Se puede controlar mediante el panel las siguientes funciones:
-- Las luces y ventiladores de la habitación.
-- Deshabilitar o habilitar sensores.
-- Ajustar los disparadores para regular la temperatura y la humedad del área.
+### The following functions can be controlled via the panel
+- The lights and fans in the room.
+- Disable or enable sensors.
+- Adjust the shutters to regulate the temperature and humidity of the area.
 
-### Caracteristicas adicionales del panel de control:
-- Registro de todos los eventos que ocurren.
-- Notificación por medio de correo electrónico en caso de producirse fuego o detectarse intrusos en el área.
+### Additional control panel features
+- Recording of all events that occur.
+- Notification by e-mail in case of fire or intruders are detected in the area.
 
-## Bibliotecas utilizadas
+## Libraries used
 - [BeautyEye](https://github.com/JackJiang2011/beautyeye)
 - [JFreeChart](http://www.jfree.org/jfreechart/)
 - [jSSC (Java Simple Serial Connector)](https://github.com/scream3r/java-simple-serial-connector)
